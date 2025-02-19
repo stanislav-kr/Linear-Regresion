@@ -20,7 +20,7 @@ table = pd.DataFrame(data)
 
 print(table.head())
 
-"""step 3 separate all data"""
+"""step 3 separate all data on test and train"""
 
 X = table[['amount of steps', 'sleep(hours)', 'water(liters)']]
 y = table['burned calories']
